@@ -25,7 +25,7 @@ const App = () => {
 
       <div className="mt-10 px-20 footer flex flex-row justify-between">
 
-        <p className="text-dark-blue">Developed by <a className="text-blue-600 cursor-pointer">Samip Lamsal</a></p>
+        <p className="text-dark-blue">Developed by <a className="text-blue-600 cursor-pointer ">Samip Lamsal</a></p>
         <a className="text-blue-600 cursor-pointer">API</a>
         <p className="text-dark-blue">Last updated: <a className="text-blue-600">9:00 pm</a></p>
 
