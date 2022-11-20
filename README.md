@@ -10,4 +10,4 @@ API Repository: [Click Here](https://github.com/Anupamaraie/Api-Election)
 ## Contributors
 
 1. [Samip Lamsal](https://github.com/lamsalsamip1) (React Web App, Scraper in Beautiful Soup)
-2. [Anupama Rai](https://github.com/Anupamaraie) (REST API using Django,Deployment)
+2. [Anupama Rai](https://github.com/Anupamaraie) (REST API using Django, Deployment)
