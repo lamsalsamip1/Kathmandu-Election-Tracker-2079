@@ -34,8 +34,8 @@ const App = () => {
         ></Route>
       </Routes>
 
-      <div className="mt-10 px-20 footer flex flex-row justify-between">
-        <p className="text-dark-blue">
+      <div className="mt-10 px-20 footer flex flex-col md:flex-row justify-center md:justify-between items-center gap-y-4">
+        <p className="text-dark-blue text-center">
           Developed by{" "}
           <a
             className="text-blue-600 cursor-pointer "
@@ -45,7 +45,7 @@ const App = () => {
             Samip Lamsal ,{" "}
           </a>
           <a
-            className="text-blue-600 cursor-pointer "
+            className="text-blue-600 cursor-pointer"
             href="https://github.com/Anupamaraie"
             target="_blank"
           >

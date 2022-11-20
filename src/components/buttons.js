@@ -11,7 +11,7 @@ const Buttons = () => {
     setActive(event.target.id);
   };
   return (
-    <div className="flex flex-row justify-center gap-x-10 mt-10">
+    <div className="flex flex-col  md:flex-row justify-center items-center gap-x-10 gap-y-5 mt-10">
       {/* <Link to="/">Federal Parliament</Link>
       <Link to="/provincial">Provincial Assembly</Link> */}
       <Link to="/">

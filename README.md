@@ -9,7 +9,7 @@ API Repository: [Click Here](https://github.com/Anupamaraie/Api-Election)
 
 ## Web App
 
-[https://ktmelection.netlify.app/]
+https://ktmelection.netlify.app/
 
 ## Contributors
 
