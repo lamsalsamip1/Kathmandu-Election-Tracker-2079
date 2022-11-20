@@ -19,7 +19,9 @@ const card = (props) => {
         key={Math.random()}
       >
         <div className="p-3 bg-dark-blue/[.9] mb-5">
-          <p className=" text-right text-white text-lg">{props.area}</p>
+          <p className=" text-center md:text-right text-white text-lg">
+            {props.area}
+          </p>
         </div>
         {leaderboard}
         {/* <List
