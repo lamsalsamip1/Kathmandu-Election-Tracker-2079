@@ -1,4 +1,4 @@
-# Federal Parliament and Provincial Assembly 2079 Election Web App
+# Federal Parliament and Provincial Assembly 2079 Election Tracker
 
 This is a web app created using Tailwind and React to view live voting count of the Federal Parliament and Provincial Assembly 2079 Election.
 
