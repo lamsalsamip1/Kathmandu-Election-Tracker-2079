@@ -1,16 +1,22 @@
 import Card from "./card.js";
 
-const FederalParliament = () => {
-  const constituencies = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
-  const electionCards = constituencies.map((number) => (
-    <Card key={number} area={number}></Card>
-  ));
-  return (
-    <div className="flex justify-center gap-10 w-100 px-20 pt-20 flex-wrap gap-y-14">
-      {electionCards}
-    </div>
-  );
+const FederalParliament = (props) => {
+  if (props.data) {
+    const parliamentResults = props.data.slice(0, 10);
+    console.log(parliamentResults[0].candidates);
+    const electionCards = parliamentResults.map((constituency) => (
+      <Card
+        key={constituency.id}
+        area={constituency.election_area}
+        candidates={constituency.candidates}
+      ></Card>
+    ));
+    return (
+      <div className="flex justify-center gap-10 w-100 px-20 pt-20 flex-wrap gap-y-14">
+        {electionCards}
+      </div>
+    );
+  }
 };
 
 export default FederalParliament;
