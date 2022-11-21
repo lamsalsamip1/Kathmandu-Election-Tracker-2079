@@ -21,6 +21,7 @@ const List = (props) => {
       else if (party === "Loktantrik Samajwadi Party") return lsp;
       else if (party === "Janata Samajwadi Party") return jsp;
       else if (party === "CPN (Unified Socialist)") return socialist;
+      else if (party === "Rastriya Swatantra Party") return rsp;
       else return independent;
     };
     let nameArr = name.split(" ");

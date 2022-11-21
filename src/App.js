@@ -54,7 +54,7 @@ const App = () => {
         </p>
         <a
           className="text-blue-600 cursor-pointer"
-          href="https://github.com/Anupamaraie/Api-Election"
+          href="https://electionapi.herokuapp.com/"
           target="_blank"
         >
           {" "}
