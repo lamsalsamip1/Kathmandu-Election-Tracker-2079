@@ -7,6 +7,7 @@ import rpp from "../icons/rpp.png";
 import maoist from "../icons/maoist.png";
 import socialist from "../icons/socialist.png";
 import independent from "../icons/independent.png";
+import lauro from "../icons/lauro.jpg";
 const List = (props) => {
   const colors = ["bg-dark-blue/[.95]", "bg-light-green", "bg-light-yellow"];
 
@@ -22,6 +23,7 @@ const List = (props) => {
       else if (party === "Janata Samajwadi Party") return jsp;
       else if (party === "CPN (Unified Socialist)") return socialist;
       else if (party === "Rastriya Swatantra Party") return rsp;
+      else if (party === "Hamro Nepali Party") return lauro;
       else return independent;
     };
     let nameArr = name.split(" ");
