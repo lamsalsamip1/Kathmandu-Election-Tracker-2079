@@ -6,6 +6,7 @@ import ProvincialAssembly from "./components/province";
 import FederalParliament from "./components/federal";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import HotSeats from "./components/hotseats";
 const App = () => {
   const [results, setResults] = useState([]);
   useEffect(() => {
@@ -33,6 +34,11 @@ const App = () => {
           element={<ProvincialAssembly data={results.data} />}
         ></Route>
       </Routes>
+
+      <h3 className="font-bold text-center text-3xl  font-['Roboto'] text-dark-blue tracking-wider mt-10">
+        Hot Seats
+      </h3>
+      <HotSeats data={results.data} />
 
       <div className="mt-10 px-20 footer flex flex-col md:flex-row justify-center md:justify-between items-center gap-y-4">
         <p className="text-dark-blue text-center">

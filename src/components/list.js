@@ -26,6 +26,16 @@ const List = (props) => {
       else if (party === "Hamro Nepali Party") return lauro;
       else return independent;
     };
+    const elected = (name) => {
+      if (
+        name == "Prakashman Singh" ||
+        name == "Gagan Thapa" ||
+        name == "Krishna Shrestha"
+      ) {
+        return "vote-count text-black font-bold text-green-800 ";
+      }
+      return "vote-count text-black font-bold";
+    };
     let nameArr = name.split(" ");
     let finalName = nameArr[0] + " " + nameArr.slice(-1);
     return (
@@ -33,10 +43,10 @@ const List = (props) => {
         <div className={colors[rank - 1] + ` p-3 w-12`}>
           <p className="text-white  text-center ">{rank}</p>
         </div>
-        <div className="flex flex-row justify-between w-60 p-3">
+        <div className="flex flex-row justify-between w-60 p-3 gap-x-2">
           <img src={chooseImage()} className="max-h-8 max-w-8"></img>
           <p className="text-light-black ">{finalName}</p>
-          <p className="vote-count text-black font-bold">{votes}</p>
+          <p className={elected(finalName)}>{votes}</p>
         </div>
       </div>
     );
