@@ -45,7 +45,7 @@ const List = (props) => {
         </div>
         <div className="flex flex-row justify-between w-60 p-3 gap-x-2">
           <img src={chooseImage()} className="max-h-8 max-w-8"></img>
-          <p className="text-light-black ">{finalName}</p>
+          <p className="text-light-black !text-center">{finalName}</p>
           <p className={elected(finalName)}>{votes}</p>
         </div>
       </div>
