@@ -11,6 +11,8 @@ API Repository: [Click Here](https://github.com/Anupamaraie/Api-Election)
 
 https://ktmelection.netlify.app/
 
+![alt text](https://github.com/lamsalsamip1/Kathmandu-Election-Tracker-2079/blob/main/ss.jpeg?raw=true)
+
 ## Contributors
 
 1. [Samip Lamsal](https://github.com/lamsalsamip1) (React Web App, Scraper in Beautiful Soup)
