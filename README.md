@@ -10,9 +10,9 @@ API Repository: [Click Here](https://github.com/Anupamaraie/Api-Election)
 ## Web App
 
 https://ktmelection.netlify.app/
+
 ![ss](https://user-images.githubusercontent.com/85882797/205650858-2767f12a-372d-481c-b896-66e9af88676e.jpg)
 
-![alt text](https://github.com/lamsalsamip1/Kathmandu-Election-Tracker-2079/main/ss.jpeg?raw=true)
 
 ## Contributors
 
