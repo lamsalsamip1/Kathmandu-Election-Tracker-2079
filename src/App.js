@@ -9,6 +9,8 @@ import { useState, useEffect } from "react";
 import HotSeats from "./components/hotseats";
 const App = () => {
   const [results, setResults] = useState([]);
+
+  // replaced electionapi.herokuapp.com with github hosted json api after completion of election
   useEffect(() => {
     axios
       .get("https://lamsalsamip1.github.io/json-api/electiondata.json")
