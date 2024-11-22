@@ -11,7 +11,7 @@ const App = () => {
   const [results, setResults] = useState([]);
   useEffect(() => {
     axios
-      .get("https://electionapi.herokuapp.com/")
+      .get("https://lamsalsamip1.github.io/json-api/electiondata.json")
       .then((res) => setResults(res.data[0]))
       .catch((err) => console.log(err));
   }, []);
